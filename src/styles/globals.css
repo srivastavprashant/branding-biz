@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #FAFAFA;
+  --bg-surface: #FFFFFF;
+  --bg-elevated: #F0F0F0;
+  --border: #E0E0E0;
+  --text-primary: #0A0A0A;
+  --text-muted: #6B7280;
+  --accent: #F5C518;
+}
+
+.dark {
+  --bg-primary: #0A0A0A;
+  --bg-surface: #111111;
+  --bg-elevated: #1A1A1A;
+  --border: #2A2A2A;
+  --text-primary: #FAFAFA;
+  --text-muted: #6B6B6B;
+  --accent: #F5C518;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Yellow glow utility */
+.glow-yellow {
+  box-shadow: 0 0 40px rgba(245, 197, 24, 0.25), 0 0 80px rgba(245, 197, 24, 0.1);
+}
+
+/* Text gradient utility */
+.text-gradient-yellow {
+  background: linear-gradient(135deg, #F5C518 0%, #FFE066 50%, #F5C518 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Marquee animation for client logos */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Branding Biz — Digital Marketing Agency, Lucknow</title>
+    <meta name="description" content="Branding Biz is a digital marketing agency based in Indra Nagar, Lucknow, India. We specialize in website design, social media management, brand videos, and more. Operating since 2017." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <script>
+      // Apply theme immediately to prevent flash
+      (function() {
+        try {
+          var stored = localStorage.getItem('bb-theme');
+          if (stored === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            // Default to dark
+            document.documentElement.classList.add('dark');
+          }
+        } catch(e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

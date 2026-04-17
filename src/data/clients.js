@@ -1,0 +1,16 @@
+export const CLIENTS = [
+  { id: 'cl-1', name: 'Spice Route Restaurant', placeholderColor: 'bg-orange-500' },
+  { id: 'cl-2', name: 'Kapoor Jewellers', placeholderColor: 'bg-yellow-500' },
+  { id: 'cl-3', name: 'Pandey Constructions', placeholderColor: 'bg-blue-600' },
+  { id: 'cl-4', name: 'Srivastava Edu Hub', placeholderColor: 'bg-green-600' },
+  { id: 'cl-5', name: 'Chaudhary Auto Parts', placeholderColor: 'bg-red-600' },
+  { id: 'cl-6', name: 'Bajpai Textiles', placeholderColor: 'bg-purple-600' },
+  { id: 'cl-7', name: 'Lucknow Sweets Co.', placeholderColor: 'bg-pink-500' },
+  { id: 'cl-8', name: 'Awadh Realty', placeholderColor: 'bg-teal-600' },
+  { id: 'cl-9', name: 'Singh Pharma', placeholderColor: 'bg-indigo-600' },
+  { id: 'cl-10', name: 'Mishra Motors', placeholderColor: 'bg-cyan-600' },
+  { id: 'cl-11', name: 'Gupta Logistics', placeholderColor: 'bg-amber-600' },
+  { id: 'cl-12', name: 'Verma Fashion House', placeholderColor: 'bg-rose-600' },
+  { id: 'cl-13', name: 'Trivedi Tech Solutions', placeholderColor: 'bg-violet-600' },
+  { id: 'cl-14', name: 'Sharma Hospitality', placeholderColor: 'bg-lime-600' },
+];
